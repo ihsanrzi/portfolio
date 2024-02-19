@@ -1,0 +1,435 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MirFolio</title>
+  <link rel="icon" href="/src/img/bg.png">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-amber-100">
+   <!-- Awal Nav -->
+   <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+   <div class="container">
+   <nav class="relative px-0 py-0 flex justify-between items-center">
+		<div class="px-4">
+          <a href="#home" class="block py-6 font-bold lg:text-3xl md:text-2xl">Mir<span class="text-purple-800">Folio</span></a>
+        </div>
+		<div class="lg:hidden">
+			<button class="navbar-burger flex items-center text-hitam p-3">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:w-auto lg:space-x-6">
+			<li><a class="text-sm text-hitam font-semibold hover:text-oren" href="#home">Home</a></li>
+			<li class="text-gray-300">
+			</li>
+			<li><a class="text-sm text-hitam  font-semibold hover:text-oren" href="#about">About Us</a></li>
+			<li class="text-gray-300">
+			</li>
+			<li><a class="text-sm text-hitam  font-semibold hover:text-oren" href="#project">Projects</a></li>
+			<li class="text-gray-300">
+			</li>
+			<li><a class="text-sm text-hitam  font-semibold hover:text-oren" href="#techstack">Skills</a></li>
+			<li class="text-gray-300">
+			</li>
+			<li><a class="text-sm text-hitam  font-semibold hover:text-oren" href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="navbar-menu relative z-50 hidden">
+		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+			<div class="flex items-center mb-8">
+				<a class="mr-auto text-3xl font-bold leading-none block py-6 lg:text-5xl md:text-2xl href="#">Mir<span class="text-purple-800">Folio</span></a>
+				<button class="navbar-close">
+					<svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div>
+				<ul>
+					<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-hitam  hover:bg-purple-50 hover:text-oren rounded" href="#home">Home</a>
+					</li>
+					<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-hitam  hover:bg-purple-50 hover:text-oren rounded" href="#about">About Us</a>
+					</li>
+					<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-hitam  hover:bg-purple-50 hover:text-oren rounded" href="#project">Project</a>
+					</li>
+					<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-hitam  hover:bg-purple-50 hover:text-oren rounded" href="#techstack">Skills</a>
+					</li>
+					<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-hitam  hover:bg-purple-50 hover:text-oren rounded" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+  </div>
+</header>
+  <!-- Akhir Nav -->
+  <!-- Awal Hero Section -->
+  <section id="home" class="pt-36">
+   <div class="container">
+   <div class="flex flex-wrap">
+    <div class="w-full self-center px-4 lg:w-1/2">
+        <h1 class="text-base font-bold text-oren md:text-xl mb-3"> Hallo Semuanya 👌 <span class="text-purple-800"> Nama Saya</span> 
+        <span class="block font-bold text-hitam text-4xl mt-1 mb-3 lg:text-5xl">Muhammad Ihsan Rizaldi</span></h1>
+        <h2 class="font-semibold text-hitam text-lg mb-5 lg:text-2xl animate-typing overflow-hidden whitespace-nowrap">Amatir UI/UX Designer</h2>
+ <a href="https://drive.google.com/uc?export=download&id=1FJ_kFWiWx8S2N_gYsIfUAqqIaVRP3aaM" class="text-base font-semibold text-white bg-oren
+           py-3 px-7 rounded-xl hover:shadow-2xl hover:opacity-70 
+           transition duration-300 ease-linear">Download CV</a>
+    </div>
+    <div class="w-full self-end px-4 lg:w-1/2">
+      <div class="mt-10 lg:mt-0 lg:right-0">
+        <img src="/src/img/020202.png" alt="ihsan" 
+        class="max-w-full mx-auto">
+      </div>
+    </div>
+    </div>
+   </div>
+  </section>
+  <!-- Akhir Hero Section -->
+  <!-- Awal About Section -->
+  <section id="about" class="pt-36 pb-25">
+<div class="container">
+  <div class="flex flex-wrap">
+    <div class="w-full px-4 mb-10 lg:w-1/2">
+      <h4 class="font-bold uppercase text-oren text-lg mb-3">Tentang <span class="text-purple-800">Saya</span></h4>
+      <h2 class="font-bold text-black text-3xl mb-3 max-w-xl lg:text-4xl hover:animate-pulse"> Halo, Mari Berkenalan Dengan Saya Guys</h2>
+      <p class="font-medium text-base text-hitam max-w-xl">Salam kenal teman-teman semua, terimakasih telah mengunjungi
+        platform saya. Saya adalah muhammad ihsan rizaldi, saya adalah seorang UI/UX desainer pemula dan juga sedang belajar
+        web desainer.</p>
+    </div>
+    <div class="w-full px-4 lg:w-1/2">
+      <h3 class="font-semibold text-black text-2xl mb-4 lg:text-3xl lg:pt-10">Sosial Media</h3>
+      <p class="font-medium text-base text-hitam mb-6 max-w-xl">Berikut adalah sosial media saya, anda bisa menghubungi Saya
+        melalui sosial media saya yang ada dibawah ini semoga kita bisa menjadi teman yang baik ya!.</p>
+        <div class="flex items-center">
+          <!-- icon instagram -->
+          <a href="https://www.instagram.com/ihsanrzi" target="_blank" class="w-10 h-10 mr-5 rounded-full flex justify-center items-center border border-hitam hover:border-oren hover:bg-oren hover:text-white" >
+            <svg role="img" width="30" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 
+              3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 
+              2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 
+              1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 
+              1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552
+              -2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797
+              -.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 
+              19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 
+              8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+          </a>
+          <!-- icon github -->
+          <a href="https://github.com/ihsanrzi" target="_blank" class="w-10 h-10 mr-5 rounded-full flex justify-center items-center border border-hitam hover:border-oren hover:bg-oren hover:text-white" >
+            <svg role="img"  width="30" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 
+              11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 
+              17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 
+              1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93
+               0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 
+               1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 
+               1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 
+               .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+                <!-- icon facebook-->
+          <a href="https://www.facebook.com/IhsanDoang123" target="_blank" class="w-10 h-10 mr-5 rounded-full flex justify-center items-center border border-hitam hover:border-oren hover:bg-oren hover:text-white" >
+            <svg role="img"  width="30" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+          </a>
+        </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <!-- Akhir About Section -->
+  <!-- Awal project-->
+  <section id="project" class="pt-36 pb-27">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-10">
+          <h4 class="font-bold uppercase text-oren text-lg mb-10 text-center">Project<span class="text-purple-800"> Saya</span></h4>
+          <p class="font-medium text-base text-hitam text-center">Berikut ini adalah beberapa project kecil-kecilan yang sudah saya buat.
+            Baik itu Project UI/UX Design atau Slicing Web. maaf kalo kurang bagus, namanya juga masih belajar guys heehe.
+          </p>
+        </div>
+        <div class="grid gap-x-8 gap-y-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 group">
+          <div>
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer bg-white">
+              <img class="w-full" src="/src/img/theplecits.png" alt="#">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">ThePlecits Landing Page</div>
+                <p class="text-gray-700 text-base">
+                Sebuah Ui Design Landing Page sebuah aplikasi/website simple dan menarik.  
+                </p>
+              </div>
+              <div class="mt-3 mb-3 flex justify-center">
+                <button type="button" class="inline-flex items-center rounded-xl bg-oren px-3 py-2 text-sm font-semibold leading-1 text-white shadow-sm hover:shadow-2xl hover:opacity-70 
+                transition duration-300 ease-linear"><a target="_blank" href="https://www.behance.net/gallery/191864961/ThePlecits-Landing-Page-(UI-Design)">Lihat Project</a></button>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer bg-white">
+              <img class="w-full" src="/src/img/yukitanya.png" alt="#">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Yukitanya Landing Page</div>
+                <p class="text-gray-700 text-base">
+                  Sebuah Ui Design Landing Page sebuah aplikasi/website simple dan menarik.  
+                </p>
+              </div>
+              <div class="mt-3 mb-3 flex justify-center">
+                <button type="button" class="inline-flex items-center rounded-xl bg-oren px-3 py-2 text-sm font-semibold leading-1 text-white shadow-sm hover:shadow-2xl hover:opacity-70 
+                transition duration-300 ease-linear"><a target="_blank" href="https://www.behance.net/gallery/191864647/Yukitanya-Landing-Page-(UI-Design)">Lihat Project</a></button>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer bg-white">
+              <img class="w-full" src="/src/img/theplecits.png" alt="#">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">ThePlecits Landing Page</div>
+                <p class="text-gray-700 text-base">
+                  Sebuah Ui Design Landing Page sebuah aplikasi/website simple dan menarik.  
+                </p>
+              </div>
+              <div class="mt-3 mb-3 flex justify-center">
+                <button type="button" class="inline-flex items-center rounded-xl bg-oren px-3 py-2 text-sm font-semibold leading-1 text-white shadow-sm hover:shadow-2xl hover:opacity-70 
+                transition duration-300 ease-linear"><a target="_blank" href="https://www.behance.net/gallery/191864961/ThePlecits-Landing-Page-(UI-Design)">Lihat Project</a></button>
+            </div>
+            </div>
+          </div>
+          <!-- <div>04</div>
+          <div>05</div>
+          <div>06</div> -->
+        </div>
+      </div>
+    </div>
+      </section>
+      <!-- Akhir project -->
+<!--Awal Tech Stack-->
+<section id="techstack" class=" pt-36 pb-25 w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+  <div class="container">
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 mb-10">
+        <h4 class="font-bold uppercase text-purple-800 text-lg mb-10 text-center">Skills<span class="text-oren"> Saya</span></h4>
+      </div>
+      <div class="w-full px-4 mb-10 lg:w-1/2 bg-white drop-shadow-lg rounded-xl">
+        <h4 class="text-lg font-bold mb-6  text-purple-800">Web <span class="text-oren">Design</span></h4>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Html</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/html.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(85%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-orange-400 text-xs font-medium text-orange-400 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">85%</div>
+  <div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-orange-400 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 85%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+
+    </div>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Css</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/css.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(75%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-blue-500 text-xs font-medium text-blue-500 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">75%</div>
+  <div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-blue-500 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 75%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+    </div>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Javascript</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/js.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(30%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-yellow-300 text-xs font-medium text-yellow-500 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">30%</div>
+  <div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-yellow-300 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 30%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+    </div>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Tailwind</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/tailwind.svg">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(45%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-cyan-400 text-xs font-medium text-cyan-400 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">45%</div>
+  <div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-cyan-400 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 45%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+    </div>
+        </div>
+        <div class="w-full px-4 lg:w-1/2">
+        <h4 class="text-lg font-bold mb-6 text-oren">Design <span class="text-purple-800">Tools</span></h4>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Figma</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/figma.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(90%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-purple-600 text-xs font-medium text-purple-600 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">90%</div>
+  <div class="flex w-full h-2 bg-white rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-purple-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 90%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+
+    </div>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Illustrator</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/ailus.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(75%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-amber-800 text-xs font-medium text-amber-800 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">75%</div>
+  <div class="flex w-full h-2 bg-white rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-amber-800 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 75%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+    </div>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Adobe XD</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/xd.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(65%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-fuchsia-950 text-xs font-medium text-fuchsia-950 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">65%</div>
+  <div class="flex w-full h-2 bg-white rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-fuchsia-950 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 65%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+    </div>
+    <div class="mb-7">
+        <div class="flex justify-between py-1">
+            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Photoshop</span>
+            <img class="w-10 h-10 mr-5" src="/src/img/ps.png">
+        </div>
+        <!-- Progress -->
+<div>
+  <div class="inline-block mb-2 ms-[calc(95%-1.25rem)] py-0.5 px-1.5 bg-gray-100 border border-indigo-900 text-xs font-medium text-indigo-900 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">95%</div>
+  <div class="flex w-full h-2 bg-white rounded-full overflow-hidden dark:bg-gray-700" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+    <div class="flex flex-col justify-center rounded-full overflow-hidden bg-indigo-900 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500" style="width: 95%"></div>
+  </div>
+</div>
+<!-- End Progress -->
+    </div>
+        </div>
+        </div>
+        </div>
+        </section>
+<!--Akhir Tech Stack-->
+<!--Awal contact-->
+<section id="contact" class="pt-36 pb-32">
+  <div class="container">
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 mb-10">
+        <h2 class="text-lg mb-10 font-bold text-center uppercase text-oren">Con<span class="text-purple-800">tact</span></h2>
+        <p class="font-medium text-base text-hitam text-center">
+          Ingin menghubungi saya? Pilih opsi di bawah dan dengan senang hati saya 
+          akan menunjukkan kepada Anda bagaimana saya dapat mengubah pengalaman web perusahaan.
+        </p>
+    </div>
+    <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
+        <div>
+            <h2 class="text-lg font-bold">Contact Saya</h2>
+            <p class="max-w-sm mt-1 mb-4 dark:text-neutral-400">Ada yang ingin dikatakan? Saya di sini untuk membantu. Isi
+              formulir atau kirim email atau telepon.</p>
+            <div class="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" aria-hidden="true" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z">
+                    </path>
+                </svg><span>Yogyakarta, Indonesia</span>
+            </div>
+            <div class="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" aria-hidden="true" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
+                    </path>
+                </svg>
+                <a href="#">muhammadihsanrizaldi.130@gmail.com</a>
+            </div>
+            <div class="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" aria-hidden="true" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z">
+                    </path>
+                </svg>
+                <a href="#">+62 11111111111</a>
+            </div>
+        </div>
+        <div>
+            <form>
+                <input type="checkbox" id="" class="hidden" style="display:none" name="botcheck">
+                <div class="mb-5">
+                    <input type="text" placeholder="Full Name" autocomplete="false"
+                        class="w-full px-4 py-3 border-2 placeholder:text-neutral-800 rounded-xl outline-none focus:ring-4 border-neutral-300 focus:border-purple-800 ring-neutral-100"
+                        name="name">
+                </div>
+                <div class="mb-5">
+                    <label for="email_address" class="sr-only">Email Address</label>
+                    <input id="email_address" type="email" placeholder="Email Address" autocomplete="false"
+                        class="w-full px-4 py-3 border-2 placeholder:text-neutral-800  rounded-xl outline-none focus:ring-4  border-neutral-300 focus:border-purple-800 ring-neutral-100"
+                        name="email">
+                </div>
+                <div class="mb-3">
+                    <input type="text" placeholder="Your Message" autocomplete="false"
+                        class="w-full px-4 py-3 border-2 placeholder:text-neutral-800 rounded-xl outline-none h-36 focus:ring-4  border-neutral-300 focus:border-purple-800 ring-neutral-100"
+                        name="message">
+                    </input>
+                </div>
+                <button type="submit"
+                    class="w-full py-4 font-semibold text-white bg-purple-800 rounded-xl hover:shadow-2xl hover:opacity-70 
+                    transition duration-300 ease-linear">Kirim Pesan
+                </button>
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+<!--Akhir Contact-->
+<!--Awal Footer-->
+<div class="text-center pb-5">
+  <a href="#" class="flex items-center justify-center mb-5 text-lg font-bold text-oren">
+      <img src="https://www.svgrepo.com/show/23668/middle-finger-gesture.svg" class="h-12 mr-3 sm:h-9" alt="#">
+  Mir<span class="text-purple-800">Folio</span>
+  </a>
+
+  <span class="block text-sm text-center text-gray-900">© 2024 MirFolio™. All Rights Reserved.
+  Built with 
+          <a
+    href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind
+    CSS
+      </a>.
+</span>
+</div>
+<!--akhir Footer-->
+ <script src="js/script.js"></script>
+</body>
+</html>
